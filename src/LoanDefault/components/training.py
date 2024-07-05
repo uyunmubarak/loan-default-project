@@ -1,11 +1,11 @@
-from MLProject import logger
-from MLProject.entity.config_entity import TrainEvaluationConfig
+from LoanDefault import logger
+from LoanDefault.entity.config_entity import TrainingConfig
 
-class TrainEvaluation:
-    def __init__(self, config: TrainEvaluationConfig):
+class Training:
+    def __init__(self, config: TrainingConfig):
         self.config = config
 
-    def mlflow_log_train(self) -> None:
+    def model(self):
         """perform training or train the data train
         
         THIS ONLY TEMPLATE!
@@ -16,12 +16,13 @@ class TrainEvaluation:
             logger.info(f"Training root directory at {self.config.root_dir}")
             logger.info(f"Dataset train in {self.config.input_train_path}")
             logger.info(f"Dataset test in {self.config.input_test_path}")
-            logger.info(f"Preprocess data train in {self.config.output_train_path}")
-            logger.info(f"Preprocess data test in {self.config.output_test_path}")
+            logger.info(f"Preprocessed data train in {self.config.output_train_path}")
+            logger.info(f"Preprocessed data test in {self.config.output_test_path}")
             logger.info(f"The model path in {self.config.model_path}")
-            logger.info(f"The MLflow tracking URI: {self.config.mlflow_tracking_uri}")
-            logger.info(f"The MLflow experiment name: {self.config.mlflow_exp_name}")
-            logger.info(f"The MLflow run name: {self.config.mlflow_run_name}")
+            logger.info(f"BATCH SIZE: {self.config.params_batch_size}")
+            logger.info(f"EPOCH: {self.config.params_epoch}")
+            logger.info(f"CLASSES: {self.config.params_classes}")
+            logger.info(f"LR: {self.config.params_lr}")
         except Exception as e:
             logger.error(e)
             raise e

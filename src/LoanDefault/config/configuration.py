@@ -1,9 +1,9 @@
 import os
 
 from pathlib import Path
-from MLProject.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
-from MLProject.utils.common import read_yaml, create_directories
-from MLProject.entity.config_entity import (DataIngestionConfig, 
+from LoanDefault.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
+from LoanDefault.utils.common import read_yaml, create_directories
+from LoanDefault.entity.config_entity import (DataIngestionConfig, 
                                             PreprocessingConfig,
                                             TrainingConfig,
                                             TrainEvaluationConfig)

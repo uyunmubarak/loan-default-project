@@ -1,6 +1,6 @@
-from MLProject.config.configuration import ConfigurationManager
-from MLProject.components.model_evaluation import TrainEvaluation
-from MLProject import logger
+from LoanDefault.config.configuration import ConfigurationManager
+from LoanDefault.components.model_evaluation import TrainEvaluation
+from LoanDefault import logger
 
 STAGE_NAME = "Training Evaluation"
 

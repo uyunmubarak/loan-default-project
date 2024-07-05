@@ -1,5 +1,5 @@
-from MLProject import logger
-from MLProject.entity.config_entity import PreprocessingConfig
+from LoanDefault import logger
+from LoanDefault.entity.config_entity import PreprocessingConfig
 
 class Preprocessing:
     def __init__(self, config: PreprocessingConfig):

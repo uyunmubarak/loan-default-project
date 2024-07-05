@@ -1,6 +1,6 @@
-from MLProject import logger
-from MLProject.config.configuration import ConfigurationManager
-from MLProject.components.data_ingestion import DataIngestion
+from LoanDefault import logger
+from LoanDefault.config.configuration import ConfigurationManager
+from LoanDefault.components.data_ingestion import DataIngestion
 
 STAGE_NAME = "Data Ingestion"
 

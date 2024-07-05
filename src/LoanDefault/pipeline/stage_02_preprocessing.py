@@ -1,6 +1,6 @@
-from MLProject.config.configuration import ConfigurationManager
-from MLProject.components.preprocessing import Preprocessing
-from MLProject import logger
+from LoanDefault.config.configuration import ConfigurationManager
+from LoanDefault.components.preprocessing import Preprocessing
+from LoanDefault import logger
 
 STAGE_NAME = "Preprocessing"
 

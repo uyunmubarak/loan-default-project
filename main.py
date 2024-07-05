@@ -1,8 +1,8 @@
-from MLProject import logger
-from MLProject.pipeline.stage_01_data_ingestion import DataIngestionPipeline
-from MLProject.pipeline.stage_02_preprocessing import PreprocessingPipeline
-from MLProject.pipeline.stage_03_train_model import TrainingPipeline
-from MLProject.pipeline.stage_04_model_evaluation import TrainEvaluationPipeline
+from LoanDefault import logger
+from LoanDefault.pipeline.stage_01_data_ingestion import DataIngestionPipeline
+from LoanDefault.pipeline.stage_02_preprocessing import PreprocessingPipeline
+from LoanDefault.pipeline.stage_03_train_model import TrainingPipeline
+from LoanDefault.pipeline.stage_04_model_evaluation import TrainEvaluationPipeline
 
 STAGE_NAME = "Data Ingestion"
 

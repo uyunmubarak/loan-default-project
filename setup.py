@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.1"
 
-REPO_NAME = "pacmann-ml-project-template"
+REPO_NAME = "loan-default-project"
 AUTHOR_USER_NAME = "uyunmbrk"
-SRC_REPO = "MLProject"
+SRC_REPO = "LoanDefault"
 AUTHOR_EMAIL = "uyunmubarak@gmail.com"
 
 setuptools.setup(
@@ -15,7 +15,7 @@ setuptools.setup(
     version = __version__,
     author = AUTHOR_USER_NAME,
     author_email = AUTHOR_EMAIL,
-    description = "ML project template",
+    description = "Predict loan default",
     long_description = long_description,
     long_description_content = "text/markdown",
     url = f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
