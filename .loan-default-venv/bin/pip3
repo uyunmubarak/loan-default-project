@@ -1,4 +1,4 @@
-#!/root/pacmann/loan-default-project/.loan-default-venv/bin/python3
+#!/root/pacmann/loan-default-project/.loan-default-venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
